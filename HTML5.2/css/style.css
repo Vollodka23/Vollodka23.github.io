@@ -6,7 +6,7 @@ table {
     height: 540px;
     border-collapse: collapse;
     border: 10px solid white;
-    margin: 50px auto; 
+    margin: 0 auto; 
 }
 
 td {

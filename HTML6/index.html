@@ -60,71 +60,216 @@
     </nav>
   <!--CONTENT-->
     <div class="content">
-     <div class="search">
-        <div class="avto">
-          <div class="headA">
-            <span >Диски</span>
-            <span class="headA_main">Поиск по автомобилю</span>
-            <span >Шины</span>
-          </div>
-          <div class="leftA">
-            <p>Марка <span class="grey_text">авто</span> <select name="" id=""></select></p>
-            <p>Модель <br><span class="grey_text"> автомобиля</span> <select name="" id=""></select></p>
-            <p>Год выпуска <br> <span class="grey_text">автомобиля</span>  <select name="" id=""></select></p>
-            <p>Комплектация   <select name="" id=""></select></p>
-          </div>
-          <div class="rightA">
-            <p>Марка <span class="grey_text">авто </span>  <select name="" id=""></select></p>
-            <p>Модель <br> <span class="grey_text">автомобиля </span><select name="" id=""></select></p>
-            <p>Год выпуска <br> <span class="grey_text">автомобиля</span>  <select name="" id=""></select></p>
-            <p>Комплектация   <select name="" id=""></select></p>
-          </div>
-          <div class="clearfix"></div>
-            <a href="#" class="search_link">Поиск...</a>
-        </div>
-        <div class="tires">
-          <span class="headT_main">поиск шин</span>
-          <p>Размер: <select name="" id=""></select><span>&nbsp/&nbsp</span><select name="" id=""></select></p>
-          <p class="radius">R <select name="" id=""></select></p>
-          <p>Сезон: 
-            <input type="checkbox" name="" id="check1"><label for="check1">лето</label> <br>
-            <input type="checkbox" name="" id="check2"><label for="check2">зима</label> <br>
-            <input type="checkbox" name="" id="check3"><label for="check3">всесез</label> <br>
-          </p>
-          <a href="#" class="search_link">Поиск...</a>
-        </div>
-        <div class="disks">
-          <div class="leftD">
-            <span class="right_top_title">поиск дисков</span>
-            <p>Диаметр <span class="grey_text">диска</span> <select name="" id=""></select></p>
-            <p>Количество <br><span class="grey_text"> крепежных</span> <br><span class="grey_text"> отверстий</span> <select name="" id=""></select></p>
-            <p>Диаметр <br> <span class="grey_text">расположения </span><br> <span class="grey_text">крепежных </span><br> <span class="grey_text">отверстий</span><select name="" id=""></select></p>
-          </div>
-          <div class="rightD">
-            <p>ДЦО <br> <span class="grey_text"> (диаметр</span> <br>  <span class="grey_text">центрального </span><br> <span class="grey_text"> отверстия): </span> <br> <select name="" id=""></select></p>
-            <p>ЕТ <span class="grey_text"> (вылет диска):</span> <br><select name="" id=""></select></p>
-          </div>
-          <div class="clearfix"></div>
-          <a href="#" class="search_link">Поиск...</a>
-        </div>
-      </div>
+     <section class="search">
+           <form action="" class="search_auto">
+               <header class="search_auto_header">
+                   <h4>Диски:</h4>
+                   <h3>Поиск по автомобилю</h3>
+                   <h4>Шины:</h4>
+               </header>
+               <content>
+                   <ul>
+                       <li>
+                           <label for="">Марка <span>авто:</span></label>
+                           <select>
+                               <option></option>
+                               <option>Mercedes-Benz</option>
+                               <option>BMW</option>
+                               <option>Porcshe</option>
+                           </select>
+                       </li>
+                       <li>
+                           <label for="">Модель <span>автомобиля:</span></label>
+                           <select>
+                               <option></option>
+                               <option>S500</option>
+                               <option>M5</option>
+                               <option>Carrera</option>
+                           </select>
+                       </li>
+                       <li>
+                           <label for="">Год выпуска <span>автомобиля:</span></label>
+                           <select>
+                               <option></option>
+                               <option>2014</option>
+                               <option>2015</option>
+                               <option>2016</option>
+                           </select>
+                       </li>
+                       <li>
+                           <label for="">Комплектация:</label>
+                           <select>
+                               <option></option>
+                               <option>Lux</option>
+                               <option>Top</option>
+                               <option>Premium</option>
+                           </select>
+                       </li>
+                   </ul>
+                   <ul>
+                       <li>
+                           <label for="">Марка <span>авто:</span></label>
+                           <select>
+                               <option></option>
+                               <option>Mercedes-Benz</option>
+                               <option>BMW</option>
+                               <option>Porcshe</option>
+                           </select>
+                       </li>
+                       <li>
+                           <label for="">Модель <span>автомобиля:</span></label>
+                           <select>
+                               <option></option>
+                               <option>S500</option>
+                               <option>M5</option>
+                               <option>911</option>
+                           </select>
+                       </li>
+                       <li>
+                           <label for="">Год выпуска <span>автомобиля:</span></label>
+                           <select>
+                               <option></option>
+                               <option>2014</option>
+                               <option>2015</option>
+                               <option>2016</option>
+                           </select>
+                       </li>
+                       <li>
+                           <label for="">Комплектация:</label>
+                           <select>
+                               <option></option>
+                               <option>Lux</option>
+                               <option>Top</option>
+                               <option>Premium</option>
+                           </select>
+                       </li>
+                   </ul>
+               </content>
+               <a href="#" class="search_link">поиск...</a>
+           </form>
+           <form action="" class="search_tyre">
+               <header class="search_tyre_header">поиск шин</header>
+               <ul>
+                   <li>
+                       <label for="">Размер:</label>
+                       <select>
+                           <option></option>
+                           <option>195</option>
+                           <option>225</option>
+                           <option>245</option>
+                       </select>
+                       /
+                       <select>
+                           <option></option>
+                           <option>35</option>
+                           <option>45</option>
+                           <option>65</option>
+                       </select>
+                   </li>
+                   <li class="serach_tyre_R">
+                       <label for="">R</label>
+                       <select>
+                           <option></option>
+                           <option>20</option>
+                           <option>21</option>
+                           <option>22</option>
+                       </select>
+                   </li>
+                   <li class="season_option">
+                       <label for="">Сезон:</label>
+                       <ul class="season">
+                           <li>
+                               <input id="q1" type="checkbox">
+                                   <label for="q1"></label>
+                                   лето
+                           </li>
+                           <li>
+                               <input id="q2" type="checkbox">
+                                   <label for="q2"></label>
+                                   зима
+                           </li>
+                           <li>
+                               <input id="q3" type="checkbox">
+                               <label for="q3"></label>
+                               всесез
+                           </li>
+                       </ul>    
+                   </li>
+               </ul>
+               <a href="#" class="search_link">поиск...</a>
+           </form>
+           <form action="" class="search_disc">
+               <content>
+                   <ul class="left_menu">
+                       <header class="search_disc_header">поиск дисков</header>
+                       <li>
+                           <label for="">Диаметр <span>диска:</span></label>
+                           <select name="mark">
+                               <option></option>
+                               <option>18</option>
+                               <option>20</option>
+                               <option>19</option>
+                           </select>
+                       </li>
+                       <li>
+                           <label for="">Количество <span>крепежных отверстий</span></label>
+                           <select name="mark">
+                               <option></option>
+                               <option>6</option>
+                               <option>8</option>
+                               <option>12</option>
+                           </select>
+                       </li>
+                       <li>
+                           <label for="">Диаметр <span>расположения крепежных отверстий</span></label>
+                           <select name="mark">
+                               <option></option>
+                               <option>12</option>
+                               <option>13</option>
+                               <option>15</option>
+                           </select>
+                       </li>
+                   </ul>
+                   <ul class="right_menu">
+                       <li>
+                           <label for="">ДЦО <p>(диаметр центрального отверстия)</p></label><select name="mark">
+                               <option></option>
+                               <option>12</option>
+                               <option>15</option>
+                               <option>17</option>
+                           </select>
+                       </li>
+                       <li>
+                           <label for="">ВТ <p>(вылет диска)</p></label>
+                           <select name="mark">
+                               <option></option>
+                               <option>12</option>
+                               <option>15</option>
+                               <option>17</option>
+                           </select>
+                       </li>
+                   </ul>
+               </content>
+               <a href="#" class="search_link">поиск...</a>
+           </form>
+       </section>
       <div class="main_content">
-      <div class="left_menu">
+      <div class="left_menu_C">
         <div class="katalogL">
           <img src="img/kat.png" alt="">
           <span>КАТАЛОГ ПРОДУКЦИИ:</span>
         </div>
         <div class="section">
-        	<img src="img/marker.png" alt="">
-        	<span>ШИНЫ</span>
-        </div>	
+          <img src="img/marker.png" alt="">
+          <span>ШИНЫ</span>
+        </div>  
         <div class="list">
-        	<ul>
-        	 	<li><a href="#">Наименование 1</a></li>
-         	 	<li><a href="#">Наименование 2</a></li>
-        	  	<li><a href="#">Наименование 3</a></li>
-          		<li><a href="#">Наименование 4</a></li>
-        	</ul>
+          <ul>
+            <li><a href="#">Наименование 1</a></li>
+            <li><a href="#">Наименование 2</a></li>
+              <li><a href="#">Наименование 3</a></li>
+              <li><a href="#">Наименование 4</a></li>
+          </ul>
         </div>
         <div class="section">
           <img src="img/marker.png" alt="">
@@ -216,24 +361,24 @@
             <p class="price">393.00 грн.</p>
           </div>
       </div>
-      <div class="right_menu">
-      	<div class="katalogR">
-        	<img src="img/kat.png" alt="">
-        	<span>Бренды</span>
-      	</div>
-      	<div class="section">
-        	<img src="img/marker.png" alt="">
-        	<span>ШИНЫ</span> 
-      	</div>
+      <div class="right_menu_C">
+        <div class="katalogR">
+          <img src="img/kat.png" alt="">
+          <span>Бренды</span>
+        </div>
+        <div class="section">
+          <img src="img/marker.png" alt="">
+          <span>ШИНЫ</span> 
+        </div>
     <div class="check">
         <p><input type="checkbox" name="" id="checkT1"><label for="checkT1">Бренд 1</label> </p>
         <p><input type="checkbox" name="" id="checkT2"><label for="checkT2">Бренд 2</label></p>
         <p><input type="checkbox" name="" id="checkT3"><label for="checkT3">Бренд 3</label></p>
     </div>  
-    	<div class="section">
-        	<img src="img/marker.png" alt="">
-        	<span>ДИСКИ</span>
-     	</div>  
+      <div class="section">
+          <img src="img/marker.png" alt="">
+          <span>ДИСКИ</span>
+      </div>  
     <div class="check">
         <p><input type="checkbox" name="" id="checkD1"><label for="checkD1">Бренд 1</label> </p>
         <p><input type="checkbox" name="" id="checkD2"><label for="checkD2">Бренд 2</label></p>
@@ -242,7 +387,6 @@
       <input type="submit" value="ВЫБРАТЬ" class="second_submit">
       </div>
     </div>
-   
   </div>
   <!--FOOTER-->
   <footer>

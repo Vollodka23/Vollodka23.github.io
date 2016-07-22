@@ -1,0 +1,36 @@
+
+ body {
+ 	background-color: #F3F3F3;
+ 	
+ }
+ .main-container{
+ 	padding: 30px;
+    margin: 12px 30% 10% 30%;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5)
+ }
+/* HEADER*/
+.img {
+	text-align: center;
+}
+
+.header h1,
+.header h2 
+ {
+	text-align: center;
+}
+/*END OF HEADER */
+.header,
+.reasons, 
+.contact {
+	margin: 0 auto;
+	width: 80%;
+	border-bottom: 2px solid grey;
+}
+p {
+	font-size: 100%;
+}
+.footer {
+	margin: 0 auto;
+	width: 80%;
+}
