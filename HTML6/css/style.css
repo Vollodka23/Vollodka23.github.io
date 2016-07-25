@@ -15,11 +15,18 @@
 .info {
 	margin-bottom: 9px;
 }
+
 .tel {
 	width: 30%;
+    margin-top: 3px;
 	float: left;
 	display: inline-block;
 	position: relative;
+ 
+}
+
+.tel img {
+    vertical-align: middle;
 }
 
 .tel_number {
@@ -31,7 +38,7 @@
 
 .avtoriz {
 	width: 55%;
-	height: 26px;
+	height: 25px;
 	border-radius: 3px;
   	padding-left: 17px;
   	margin-left: 17px;
@@ -40,6 +47,15 @@
 	box-shadow: 0px 3px 3px 0px rgba(150, 150, 150, 0.75);
     background-image: -webkit-linear-gradient(top, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
     background-image: -o-linear-gradient(top, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+}
+
+.log_in {
+    padding-top: 3px;
+    padding-top: 4px;
+}
+
+.log_in img {
+    vertical-align: middle;
 }
 
 .avtoriz li {
@@ -63,16 +79,22 @@
 	cursor: pointer;
 }
 
+.log_in {
+    width: 100%;
+    height: 100%;
+ 
+}
+
 .log_in a {
 	color: #fff;
 	font-size: 11px;
-	display: block;
+	display: inline-block;
 	height: 19px;
 	line-height: 19px;
 	text-decoration: none;
 }
 
-.log_in li:last-child a {
+.log_in .forgot {
 	padding-left: 30px;
 	color: #b1bcc0;
 	text-decoration: underline;
@@ -81,21 +103,53 @@
 .navi {
 	width: 8%;
 	height: 19px;
+    margin-top: 1px;
   	border: 1px solid #bdc4c7;
 	border-radius: 10px;
 	float: right;
 	display: inline-block;
 	position: relative;
 }
+
 .navi a {
  	display: inline;
 	padding: 3px;
+
+}
+
+/*LOGO*/
+.logo {
+    position: relative;
+}
+.logo_text {
+    margin-left: 3px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background: #052039;
+    width: 265px;
+    height: 123px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.logo_text a {
+    font-size: 37px;
+    font-family: "Lucida Sans Unicode";
+    color: #cecece;
+    text-decoration: none;
+}
+.logo_text h3 {
+    font-size: 25px;
+    font-family: "Lucida Sans Unicode";
+    text-align: right;
+    color: #a41502;
 }
 
 /*NAV*/
 nav {
 	margin-top: 5px;
 	margin-bottom: 11px;
+    height: 34px;
     background-image: -ms-linear-gradient(top, #464D54 0%, #010101 100%);
     background-image: -moz-linear-gradient(top, #464D54 0%, #010101 100%);
     background-image: -o-linear-gradient(top, #464D54 0%, #010101 100%);
@@ -110,16 +164,18 @@ nav {
 }
 
 .top_menu {
-	padding-left: 148px;
-	padding-right: 12px;
-  	height: 31px;
+	padding-right: 18px;
+  	height: 34px;
 	display: inline-block;
-	float: left;
+	float: right;
 	position: relative;
 }
 
 .top_menu li {
-	padding: 0 30px 0 0;
+    margin-top: 3px;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-transform: uppercase;
 	display: inline-block;
 }
 
@@ -131,29 +187,42 @@ nav {
   	text-decoration: none;
 }
 
+
 .top_menu li a:hover {
-	color: rgb(255, 255, 255);
-	border-radius: 12px;
+	padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.2s all;
+    color: rgb(255, 255, 255);
+	border-radius: 11px;
     background-image: linear-gradient(to bottom , rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
 }
 
 .kalk {
-	height: 31px;
+    width: 22%;
+	height: 34px;
 	float: right;
+}
+
+.kalk img {
+    padding-top: 5px;
+}
+
+.kalk span {
+    position:relative;
+    top:-2px;
+    left:0;
 }
 
 .name {
 	font-size: 11px;
  	font-family: "Arial";
   	color: rgb(146, 155, 159);
-  	line-height: 1.2;
 }
 
 .number {
 	font-size: 12px;
   	font-family: "Arial";
   	color: rgb(13, 90, 143);
-  	line-height: 1.2;
 }
 
 /*SEARCH*/
@@ -412,18 +481,43 @@ nav {
 
 .katalogL,
 .katalogR {
-	width: 180px;
-	margin: 3px 4px 13px 0;
-	height: 26px;
-	line-height: 26px;
-	text-transform: uppercase;
-	font-size: 13px;
-	color: rgb(17, 65, 101);
-	border: 1px solid #465961;
-	border-radius: 13px;
-	box-shadow: 0px 2px 2px 0px;
+    border: 1px solid rgb( 121, 135, 141 );
+    border-radius: 15px;
+    box-shadow: 1.5px 2.598px 3px 0px rgb( 150, 150, 150 );
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode";
+    color: rgb( 17, 65, 101 );
+    width: 100%;
+    padding: 3px 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 15px;
+    box-sizing: border-box;
 }
 
+.katalogL,
+.katalogR img {
+    margin-right: 3px;
+}
+
+.icon {
+    border-radius: 50%;
+    background-image: -moz-linear-gradient( -90deg, rgb( 32, 105, 136 ) 0%, rgb( 17, 65, 101 ) 59.229%, rgb( 12, 50, 86 ) 100%);
+    background-image: -webkit-linear-gradient( -90deg, rgb( 32, 105, 136 ) 0%, rgb( 17, 65, 101 ) 59.229%, rgb( 12, 50, 86 ) 100%);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.katalogL h2 {
+    display: block;
+    margin: auto 0;
+}
 
 .list {
 	padding-left: 35px;
@@ -452,11 +546,20 @@ nav {
 
 .section {
 	width: 148px;
+    padding: 2px 0 2px 3px;
 	border: 1px solid #465961;
 	border-radius: 13px;
 	font: 13px Arial;
 	color: #114165;
 	box-shadow: 0px 2px 2px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.section img {
+    margin-right: 3px;
 }
 
 .right_menu_C {
@@ -468,7 +571,7 @@ nav {
 	margin: 12px 0 16px 10px;
 }
 
-.check p {
+.check__inpput {
 	font-size: 12px;
 	line-height: 18px;
 	font-family: "Lucida Sans Unicode";
@@ -561,9 +664,17 @@ footer {
 }
 
 .brand_links {
-	width: 70%;
+	width: 100%;
 	margin: 0 auto;
 	display: block;
+}
+
+.brand_links a {
+    margin-right: 10px;
+}
+
+.brand_links a:last-child {
+    margin-right: 0px;
 }
 
 .end {
