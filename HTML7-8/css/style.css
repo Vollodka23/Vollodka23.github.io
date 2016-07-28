@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url(../fonts/LeagueGothic.otf);
+}
+
+html, 
+body {
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/bg.jpg);
+	background-color: lightgrey;
+}
+
+.inside_wrapper {
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: '';
+}
+
+/*HEADER*/
+
+header {
+	padding-top: 76px;
+}
+ 
+.logo {
+	font-family: 'LeagueGothic', Arial, sans-serif;
+	line-height: 0.703;
+	width: 20%;
+}
+
+.logo a {
+	text-decoration: none;
+}
+
+.logo h1 {
+	font-size: 48px;
+  	color: rgb(255, 255, 255);
+    text-shadow: 0px 2px 2px rgb( 0, 0, 0 );
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo--colored {
+	font-size: 48px;
+	color: #745083;
+}
+
+.nav_menu li {
+	display: inline-block;
+	padding-right: 45px;
+	text-transform: uppercase;
+}
+
+.nav_menu li:last-child {
+	padding-right: 0px;
+}
+
+.nav_menu a {
+	font-size: 24px;
+ 	font-family: "LeagueGothic";
+ 	color: rgb(255, 255, 255);
+ 	text-transform: uppercase;
+ 	text-decoration: none;
+ 	line-height: 1.405;
+ 	text-align: left;
+ 	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.nav_menu a:hover {
+	border-bottom: 2px solid #edbfff;
+}
+
+/*SLIDER*/
+
+.slider {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*CONTENT*/
+
+.blurbs {
+	padding-top: 79px;
+	padding-bottom: 71px;
+    background: -webkit-linear-gradient(#745082 0%, #4d3757 36%, #33253a 100%);
+    background: -o-linear-gradient(#745082 0%, #4d3757 36%, #33253a 100%);
+    background: linear-gradient(#745082 0%, #4d3757 36%, #33253a 100%);
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_key {
+	margin-right: 63px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+ 	width: 90%;
+}
+
+.text h3 {
+	padding-bottom: 37px;
+	font-size: 30px;
+  	font-family: "LeagueGothic";
+  	color: rgb(255, 255, 255);
+	text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+}
+
+.text p {
+	font-size: 16px;
+  	font-family: "OpenSans";
+  	color: rgb(255, 255, 255);
+  	
+  	
+  	text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+}
+
+.more {
+	float: right;
+	position: relative;
+	display: inline-block;
+}
+
+.more a {
+	text-decoration: none;
+	font-size: 18px;
+  	font-family: "LeagueGothic";
+  	color: rgb(255, 255, 255);
+
+  	text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+}
+
+.more a:hover {
+	text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+}
+
+.about_key .img {
+	margin-right: 25px;
+	padding-bottom: 140px;
+	background: url(../img/sprite1.png) 0 0 no-repeat;
+	height: 26%;
+	width: 28px;
+	box-sizing: border-box;
+    background-size: 107px 32px;
+
+}
+
+.about_text {
+	margin-right: 63px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_text .img {
+	margin-right: 25px;
+	padding-bottom: 140px;
+	background: url(../img/sprite1.png) 0 0 no-repeat;
+	background-position: -25px 0;
+	height: 26px;
+	width: 30px;
+}
+
+.about_sound {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_sound .img {
+	margin-right: 25px;
+	padding-bottom: 140px;
+	background: url(../img/sprite1.png) 0 0 no-repeat;
+	background-position: -53px 0;
+	height: 26px;
+	width: 26px;
+}
+
+.social {
+	padding-top: 100px;
+	padding-bottom: 71px;
+	background-color: #f9f9f9;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial {
+	width: 50%;
+}
+
+.from_the_blog {
+	width: 50%;
+}
+
+.logos {
+	padding-top: 24px;
+	padding-bottom: 30px;
+
+	background-color: #f9f9f9;
+	
+}
+
+.logos a {
+	padding-right: 60px;
+}
+
+.logos a:last-child {
+	padding-right: 0px;
+}
+
+/*FOOTER*/
+
+.footer_group {
+	background-color: #ececec;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_nav {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
