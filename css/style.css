@@ -19,9 +19,64 @@ body {
 
 }
 
-.links a {
-   color: white;
-   text-decoration: none; 
-   font-size: 20px;
-   font-weight: bold;
+.links li {
+	display: inline-block;
+	float: left;
 }
+
+.links a {
+	color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.links > li {
+    float: left;
+    position: relative;
+}
+ul.links > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+ul.links > li > a:hover {
+    background-color: black;
+}
+ul.studia .frontend {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+}
+ul..studia .frontend  > li {
+    display: block;
+}
+ul..studia .frontend  > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+ul..studia .frontend  > li > a:hover {
+    text-decoration: underline;
+}*/
